@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from 'react';
 import { Github, Mail, Linkedin, FileText } from 'lucide-react';
 
@@ -108,7 +110,7 @@ const Portfolio = () => {
               </a>
               <a href="https://linkedin.com/in/yourusername" className="flex items-center gap-2 text-gray-600 hover:text-blue-600">
                 <Linkedin size={20} />
-                Linkedin Profile
+                LinkedIn Profile
               </a>
               <a href="/resume.pdf" className="flex items-center gap-2 text-gray-600 hover:text-blue-600">
                 <FileText size={20} />
