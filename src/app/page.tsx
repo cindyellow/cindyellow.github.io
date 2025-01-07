@@ -58,7 +58,7 @@ const Portfolio = () => {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h1 className="text-3xl font-bold mb-4">About Me</h1>
               <p className="text-gray-600">
-                Hello! I'm a [your role] passionate about building web applications.
+                Hello! I&apos;m a [your role] passionate about building web applications.
                 I specialize in [your specialties] and love working with modern technologies.
               </p>
             </div>
