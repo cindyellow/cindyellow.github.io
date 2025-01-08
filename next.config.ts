@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // Enables static exports
-  basePath: '/your-repo-name', // Add this if you're not using a custom domain
+  output: 'export',  // Enables static exports for GitHub Pages
   images: {
-    unoptimized: true,
+    unoptimized: true,  // Required for static export
   },
+  // No basePath needed for username.github.io repos
 }
 
 module.exports = nextConfig
