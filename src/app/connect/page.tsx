@@ -1,16 +1,15 @@
 "use client";
 
 import { Button, Layout, Typography, theme } from 'antd';
-import Head from 'next/head';
-const { Header, Content, Footer } = Layout;
-const { Title, Paragraph, Text } = Typography;
+const { Content, Footer } = Layout;
+const { Title} = Typography;
 import { FaGithub, FaLinkedin, FaSpotify } from "react-icons/fa";
 
 
 const ContactPage = () => {
-    const {
-        token: { colorBgContainer, borderRadiusLG },
-      } = theme.useToken();
+    // const {
+    //     token: { colorBgContainer, borderRadiusLG },
+    //   } = theme.useToken();
 
     return (
         <Layout>

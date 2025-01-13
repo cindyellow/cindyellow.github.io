@@ -2,14 +2,14 @@
 
 import { Typography, Layout, theme } from 'antd';
 import { Col, Row } from 'antd';
-const { Header, Content, Footer } = Layout;
-const { Title, Paragraph, Text } = Typography;
+const { Content, Footer } = Layout;
+const { Title, Paragraph } = Typography;
 
 
 const ProjectPage = () => {
-    const {
-        token: { colorBgContainer, borderRadiusLG },
-      } = theme.useToken();
+    // const {
+    //     token: { colorBgContainer, borderRadiusLG },
+    //   } = theme.useToken();
 
     return (
         <Layout>

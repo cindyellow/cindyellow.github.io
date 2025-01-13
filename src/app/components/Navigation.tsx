@@ -1,16 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { Layout, theme, Menu } from 'antd';
+import { Layout, Menu } from 'antd';
 const {Header} = Layout;
 
 
 const Navigation = () => {
-    const {
-        token: { colorBgContainer, borderRadiusLG },
-      } = theme.useToken();
+    // const {
+    //     token: { colorBgContainer, borderRadiusLG },
+    //   } = theme.useToken();
     return(
-        <Header style={{ display: 'flex', alignItems: 'center', background:colorBgContainer }}>
+        <Header style={{ display: 'flex', alignItems: 'center'}}>
             <Link href="/" className="text-xl font-bold flex-1 w-40">cindy's myspace</Link>
             <Menu theme="dark"
             mode="horizontal"
