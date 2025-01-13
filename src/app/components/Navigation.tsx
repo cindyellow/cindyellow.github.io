@@ -11,7 +11,7 @@ const Navigation = () => {
     //   } = theme.useToken();
     return(
         <Header style={{ display: 'flex', alignItems: 'center'}}>
-            <Link href="/" className="text-xl font-bold flex-1 w-40">cindy's myspace</Link>
+            <Link href="/" className="text-xl font-bold flex-1 w-40">{"cindy\'s myspace"}</Link>
             <Menu theme="dark"
             mode="horizontal"
             className="flex-1 w-80 justify-end text-lg">
