@@ -14,7 +14,7 @@ const ContactPage = () => {
     return (
         <Layout>
            <Content className="p-12">
-            <Title level={2}>let's connect!</Title> 
+            <Title level={2}>{"let\'s connect!"}</Title> 
             <Content className="p-12 justify-end">
                 <Button type="link" href="https://www.linkedin.com/in/cindy-shih-ting-huang/"><FaLinkedin size={50}/></Button>
                 <Button type="link" href="https://github.com/cindyellow"><FaGithub size={50}/></Button>
