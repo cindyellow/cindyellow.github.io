@@ -1,6 +1,6 @@
 "use client";
 
-import { Typography, Layout, theme } from 'antd';
+import { Typography, Layout } from 'antd';
 import { Col, Row } from 'antd';
 const { Content, Footer } = Layout;
 const { Title, Paragraph } = Typography;

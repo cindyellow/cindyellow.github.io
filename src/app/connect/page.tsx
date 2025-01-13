@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Layout, Typography, theme } from 'antd';
+import { Button, Layout, Typography } from 'antd';
 const { Content, Footer } = Layout;
 const { Title} = Typography;
 import { FaGithub, FaLinkedin, FaSpotify } from "react-icons/fa";
